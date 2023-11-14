@@ -21,7 +21,6 @@ ul, li{
 }
 /* Header Section Start*/
 header{
-    height: 100vh;
     background-color: #264653;
 }
 /* Navbar Section */
@@ -44,5 +43,25 @@ header{
     width: 2.25rem;
     height: 2.25rem;
     background-image: url(/images/icons/menu.png);
+}
+/* Banner Section */
+.bz-banner-text{
+    width: 456px;
+}
+.bz-banner-text h3, h1, p{
+    font-family: var(--poppins);
+}
+.bz-banner-text h3{
+    font-size: 14px;
+}
+.bz-banner-text h1{
+    font-size: 48px;
+}
+.bz-banner-text p{
+    font-size: 16px;
+}
+.bz-banner-text button{
+    background-color: #E76F51;
+    padding: 10px 46px;
 }
 /* Header Section End*/
