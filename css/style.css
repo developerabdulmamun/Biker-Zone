@@ -6,3 +6,43 @@
     --poppins: 'Poppins', sans-serif;
     --manrope: 'Manrope', sans-serif;
 }
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+/* Header Section Start*/
+header{
+    height: 100vh;
+    background-color: #264653;
+}
+/* Navbar Section */
+.bz-navbar{
+    padding: 42px 0 69px;
+}
+.bz-navbar-nav{
+    gap: 36px;
+    margin-right: 100px;
+} 
+.bz-navbar-nav li a{
+    font-family: var(--poppins);
+    padding: 0 !important;
+}
+.bz-nav-btn{
+    background-color: #E76F51;
+    padding: 10px 24px !important;
+}
+.navbar-toggler-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    background-image: url(/images/icons/menu.png);
+}
+/* Header Section End*/
