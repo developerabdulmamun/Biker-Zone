@@ -147,3 +147,31 @@ header{
     color: #7E848C;
 }
 /* Main Section End */
+/* Footer Section Start */
+.footer-1 ul li{
+    padding-bottom: 10px !important;
+}
+.footer-1 ul li a{
+    font-family: var(--manrope);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.footer-2 ul li{
+    padding-bottom: 10px !important;
+}
+.footer-2 ul li a{
+    font-family: var(--manrope);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.footer-3 h5{
+    font-family: var(--manrope);
+    font-size: 18px;
+    color: #D9DBE1;
+}
+.footer-3 a img{
+    width: 160px;
+}
+/* Footer Section End */
