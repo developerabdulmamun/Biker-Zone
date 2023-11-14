@@ -65,3 +65,39 @@ header{
     padding: 10px 46px;
 }
 /* Header Section End*/
+/* Main Section Start */
+/* Feature Bikes Section */
+.feature-heading h2{
+    font-family: var(--poppins);
+    font-size: 48px;
+}
+.feature-heading p{
+    font-family: var(--poppins);
+    font-size: 14px;
+    color: #E76F51;
+    margin-bottom: 4px !important;
+}
+.feature-heading hr{
+    width: 58px;
+    border: 1px solid #E76F51;
+}
+/* Latest News Section */
+.latest-heading{
+    font-family: var(--poppins);
+    font-size: 48px;
+}
+.bz-card-body{
+    padding: 0;
+}
+.bz-card-body h5{
+    font-family: var(--poppins);
+    font-size: 28px;
+}
+.bz-card-body p{
+    font-family: var(--poppins);
+    font-size: 16px;
+}
+.bz-card-body button{
+    font-family: var(--poppins);
+}
+/* Main Section End */
